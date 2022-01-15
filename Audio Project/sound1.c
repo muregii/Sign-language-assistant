@@ -2,6 +2,14 @@
 #include<conio.h>
 #include<windows.h>
 #include<MMsystem.h>
+/*The project is meant to bridge the gap of communication
+between those reliant on sign language with those
+of normal speech.
+This program is a prototype that can be useful if embedded into a device
+that can produce sound when certain buttons are pressed.
+                    CAUTION:
+If ( and only if) sound does not play, it means that prior linking of files requires to be done first for new devices
+Go to > Settings> Compiler> Linker settings> Other Linker options > then type -lwinmm*/
 
 int sound1()
 {
